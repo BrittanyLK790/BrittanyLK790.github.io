@@ -1,0 +1,12 @@
+#navBarnav{
+    font-family: 'Inconsolata', monospace;
+    font-size: 25px;
+    color: goldenrod;
+}
+
+.navbar-brand{
+    font-family: 'Inconsolata', monospace;
+    font-size: 30px;
+    color: black;
+    background: rosybrown;
+}

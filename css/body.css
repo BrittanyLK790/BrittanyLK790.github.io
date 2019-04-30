@@ -1,0 +1,19 @@
+body{
+    background-color: rosybrown;
+    background-image: url("https://images.pexels.com/photos/1660193/pexels-photo-1660193.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500") no-repeat, fixed, top, center;
+    font-family: 'Inconsolata', monospace; 
+    font-size: 20px;
+    color: lightgoldenrodyellow;
+}
+
+h1{
+    font-family: 'Inconsolata', monospace; 
+    font-size: 20px;
+    color: goldenrod;
+}
+
+h2{
+    font-family: 'Inconsolata', monospace;
+    font-size: 20px;
+    color: goldenrod;
+}
