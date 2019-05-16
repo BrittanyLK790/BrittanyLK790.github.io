@@ -1,12 +1,23 @@
 #navBarnav{
     font-family: 'Inconsolata', monospace;
     font-size: 25px;
+    font-weight: 900;
+    position: fixed;
+    z-index: 0;
     color: goldenrod;
+    
+}
+.navbar-text{
+    font-family: 'Inconsolata', monospace;
 }
 
-.navbar-brand{
+
+/*  .navbar-brand{ 
+    background-image: url("../assets/pexels9.jpeg");
     font-family: 'Inconsolata', monospace;
     font-size: 30px;
-    color: black;
-    background: rosybrown;
-}
+    z-index: -1;
+    color: goldenrod;
+    background: royalblue;
+}*/
+

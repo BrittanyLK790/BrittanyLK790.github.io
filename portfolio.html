@@ -10,33 +10,36 @@
     <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                    <a class="navbar-brand" href="#">Portfolio</a>
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                      <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                      <ul class="navbar-nav nav-tabs">
+            <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #0c6c85;">
+              <a class="navbar-brand" href="#" style="font-family: 'Inconsolata', monospace; color: goldenrod">Portfolio</a>
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav nav-tabs">
                         <li class="nav-item active">
-                          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                          <a class="nav-link" href="#ContactMe" style="font-family: 'Inconsolata', monospace; color: goldenrod">Contact Me <span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item">
-                          <a class="nav-link" href="https://www.linkedin.com/feed/" target="blank">LinkedIn</a>
+                          <a class="nav-link" href="#AboutMe" style="font-family: 'Inconsolata', monospace; color: goldenrod">About Me</a>
                         </li>
                         <li class="nav-item">
-                          <a class="nav-link" href="https://github.com/" target="blank">GitHub</a>
+                          <a class="nav-link" href="https://www.linkedin.com/feed/" target="blank" style="font-family: 'Inconsolata', monospace; color: goldenrod">LinkedIn</a>
                         </li>
                         <li class="nav-item">
-                          <a class="nav-link" href="#" target="blank">Resume</a>
+                          <a class="nav-link" href="https://github.com/" target="blank" style="font-family: 'Inconsolata', monospace; color: goldenrod">GitHub</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="https://docs.google.com/document/d/1r-y5CQwrC-CVcDIO5ATNl8vvnVTot6EQZpIpnwkydaw/edit" target="blank" style="font-family: 'Inconsolata', monospace; color: goldenrod">Resume</a>
                         </li>
                         <li class="nav-item dropdown">
-                          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="font-family: 'Inconsolata', monospace; color: goldenrod">
                             Projects
                           </a>
                           <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                            <a class="dropdown-item" href="#CSSCreature">CSS Creature</a>
-                            <a class="dropdown-item" href="#StaticWebpage">Static Webpage</a>
-                            <a class="dropdown-item" href="#APIProject">API Project</a>
+                            <a class="dropdown-item" href="#CSSCreature" style="font-family: 'Inconsolata', monospace; color: goldenrod">CSS Creature</a>
+                            <a class="dropdown-item" href="#StaticWebpage" style="font-family: 'Inconsolata', monospace; color: goldenrod">Static Webpage</a>
+                            <a class="dropdown-item" href="#APIProject" style="font-family: 'Inconsolata', monospace; color: goldenrod">API Project</a>
                           </div>
                         </li>
                       </ul>
@@ -44,26 +47,26 @@
                   
     </nav>
     
-    <header id="jumbotron">
+    <header>
             <div class="jumbotron jumbotron-fluid">
                     <div class="container">
                       <h1 class="display-4">Brittany Keith</h1>
-                      <p class="lead">Software Developer</p>
+                      <p class="lead">Software Developer & Designer</p>
                     </div>
                   </div>
     </header>
     
-    <section id="example">
-            <div class="example-container">
-                    <div class="example-row">
-                      <div class="example-content-main">Picture</div>
-                      <div class="example-content-secondary">I'm 28 years old. Indiana is my home town, born and raised in Indianapolis. My background is in Animal Husbandry. I decided to move onto coding. It's more of a challenge, besides it is fun. I wanted to see my potential with this growing field. I have members of my family who are coders. It gave me inspiration to go learn coding, to see me grow as individual, and to unlock my potential. </div>
+    <section id="aboutme">
+            <div class="container">
+                    <div class="row">
+                      <img src="../4-Portfolio/assets/me.jpeg.jpg" alt="me" height="250" width="450">
+                      <div class="content-secondary col-sm-6">I'm 28 years old. Indianapolis, Indiana is my home town. My background is in Animal Husbandry. I decided to move onto coding. It's more of a challenge, besides it is fun. I wanted to see my potential with this growing field. I have members of my family who are coders. It gave me inspiration to go learn coding, to see me grow as individual, and to unlock my potential. </div>
                     </div>
                   </div>
     </section>
     
-    <section id="projects">
-            <div class="bd-example">
+    <section>
+            <div class="bd-container">
                     <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
                       <ol class="carousel-indicators">
                         <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
@@ -72,27 +75,30 @@
                       </ol>
                       <div class="carousel-inner">
                         <div class="carousel-item active">
-                          <a herf="https://codepen.io/Brittany790/pen/EJZNvz" target="blank"></a>
-                          <img id="CSSCreature" src="..." class="d-block w-100" alt="css-creature">
+                          <svg class="bd-placeholder-img bd-placeholder-img lg d-block w-100" width="800" height="400" xmlns="https://codepen.io/Brittany790/pen/EJZNvz/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: First slide"></svg>
                           <div class="carousel-caption d-none d-md-block">
-                            <h5 id="CSSCreature">CSS Creature</h5>
-                            <p>My Creature. A beautiful butterfly. Compared to my first attempt, I am very proud of my little flying machine!</p>
+                            <a href="https://codepen.io/Brittany790/pen/EJZNvz"><img src="../4-Portfolio/assets/Screenshot (11).png" width="800" height="400"></a>
+                            <h5 style="font-family: 'Inconsolata', monospace; color: white">CSS Creature</h5>
+                            <p style="font-family: 'Inconsolata', monospace; color: goldenrod">My Creature. A beautiful butterfly. Compared to my first attempt, I am very proud of my little flying machine!</p>
                           </div>
                         </div>
-                        <div class="carousel-item">
-                          <img src="..." class="d-block w-100" alt="...">
-                          <div class="carousel-caption d-none d-md-block">
-                            <h5>Static Webpage</h5>
-                            <p>My Static Webpage.</p>
+                        <div class="carousel-item" id="staticwebpage">
+                          <svg class="bd-placeholder-img bd-placeholder-img lg d-block w-100" width="800" height="400" xmlns="../4-Portfolio/assets/Screenshot (12).png" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Second slide"></svg>
+                          <div class="carousel-caption d-none d-md-block"> 
+                              <a href="http://127.0.0.1:5500/3-Webpage-Turtoiral/3-Webpage-Turtorial.html"><img src="../4-Portfolio/assets/Screenshot (12).png" width="800" height="400"></a>
+                            <h5 style="font-family: 'Inconsolata', monospace; color: white">Static Webpage</h5>
+                            <p style="font-family: 'Inconsolata', monospace; color: goldenrod">My Static Webpage. Wanted it to catch the eye.</p>
                           </div>
                         </div>
-                        <div class="carousel-item">
-                          <img src="..." class="d-block w-100" alt="...">
+                        <div class="carousel-item" id="apiproject">
+                          <svg class="bd-placeholder-img bd-placeholder-img lg d-block w-100" width="800" height="400" xmlns="../4-Portfolio/assets/Screenshot (11).png" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Third slide"><title>Placeholder</title><rect width="0%" height="0%" fill="#555"></rect><text x="50%" y="50%" fill="#333" dy=".3em">Third slide</text></svg>
                           <div class="carousel-caption d-none d-md-block">
-                            <h5>API Project</h5>
-                            <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                              <a href="http://http://127.0.0.1:5500/5-API-Project/api.html?"><img src="../4-Portfolio/assets/Screenshot (15).png" width="800" height="400"></a>
+                            <h5 style="font-family: 'Inconsolata', monospace; color: white">API Project</h5>
+                            <p style="font-family: 'Inconsolata', monospace; color: goldenrod">API</p>
                           </div>
                         </div>
+                        ::after
                       </div>
                       <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
                         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -103,21 +109,24 @@
                         <span class="sr-only">Next</span>
                       </a>
                     </div>
+                    
                   </div>
+                  
+                </div>
     </section>
     
     <section id="contactme">
             <div class="container">
                     <br>
                     <br>
-                  <h2 class="text-center text-uppercase">Contact Me</h2>
-                  <p class="text-center">BrittanyLK790@gmail.com</p>
+                  <h2 class="text-center text-uppercase" id="ContactMe" style="font-family: 'Inconsolata', monospace; color: white">Contact Me</h2>
+                  <p class="text-center" style="font-family: 'Inconsolata', monospace; color: goldenrod">BrittanyLynnKeith3@gmail.com</p>
                   <div class="row">
                     <div class="col-12">
-                      <form action="https://formspree.io/Brittany790@gmail.com" method="POST">
+                      <form action="https://formspree.io/BrittanyLynnKeith3@gmail.com" method="POST">
                         <div class="control-group">
                           <div class="form-group">
-                            <label>Name</label>
+                            <label style="font-family: 'Inconsolata', monospace; color: goldenrod"></label>
                             <input 
                               type="text" 
                               class="form-control" 
@@ -132,7 +141,7 @@
                         </div>
                         <div class="control-group">
                           <div class="form-group">
-                            <label>Email Address</label>
+                            <label style="font-family: 'Inconsolata', monospace; color: goldenrod"></label>
                             <input 
                               type="email" 
                               class="form-control" 
@@ -163,7 +172,7 @@
                           <div id="success"></div>
                           <button type="submit" class="btn btn-lg btn-dark">
                             <i class="fa fa-paper-plane-o" aria-hidden="true"
-                            value="send"
+                            value="send" style="font-family: 'Inconsolata', monospace; color: goldenrod"
                             ></i>
                             Send Message
                           </button>
@@ -177,10 +186,10 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <footer>
-        <section id="footer">
-    <span>&copy;2019 </span>
+        <section>
+    <span style="font-family: 'Inconsolata', monospace; color: goldenrod">&copy;2019 </span>
     
-        <a>Brittany Keith</a>
+        <a style="font-family: 'Inconsolata', monospace; color: goldenrod">Brittany Keith</a>
         </section>
   </footer>   
 </body>

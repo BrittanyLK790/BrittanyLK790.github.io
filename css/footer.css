@@ -1,0 +1,17 @@
+.container{
+    --font-one: 'Inconsolata', monospace;
+    font-size:15px;
+    color: goldenrod;
+    border: center bottom;
+    margin: 50px 50px 0px 100px;
+}
+
+.h2{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+p{
+    font-size: 20px;
+    font-weight: 700;
+}

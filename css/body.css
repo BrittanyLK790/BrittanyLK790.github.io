@@ -1,19 +1,48 @@
+.selector-for-some-widget {
+    box-sizing: content-box;
+}
+
 body{
-    background-color: rosybrown;
-    background-image: url("https://images.pexels.com/photos/1660193/pexels-photo-1660193.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500") no-repeat, fixed, top, center;
-    font-family: 'Inconsolata', monospace; 
-    font-size: 20px;
-    color: lightgoldenrodyellow;
+background-image: url(../assets/pexels4.jpeg);
+background-size: 100%;
+background-repeat: no-repeat;
+--font-one: 'Inconsolata', monospace;
 }
 
 h1{
     font-family: 'Inconsolata', monospace; 
     font-size: 20px;
     color: goldenrod;
+    position: relative;
 }
 
 h2{
     font-family: 'Inconsolata', monospace;
     font-size: 20px;
     color: goldenrod;
+    position: relative;
 }
+p{
+    --font-one: 'Inconsolata', monospace;
+    font-size: 15px;
+    padding: top, center;
+    margin: 0px 0px 0px 0px;
+    color: goldenrod;
+}
+
+
+
+/*Extra small devices (portrait phones, less than 576px)*/
+/*@media (max-width: 575.98px) { ... }*/
+
+/*Small devices (landscape phones, 576px and up)*/
+/*@media (min-width: 576px) and (max-width: 767.98px) { ... }*/
+
+/*Medium devices (tablets, 768px and up)*/
+/*@media (min-width: 768px) and (max-width: 991.98px) { ... }*/
+
+/*Large devices (desktops, 992px and up)*/
+/*@media (min-width: 992px) and (max-width: 1199.98px) { ... }*/
+
+/*Extra large devices (large desktops, 1200px and up)*/
+/*@media (min-width: 1200px) { ... }*/

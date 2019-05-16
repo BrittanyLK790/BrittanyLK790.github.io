@@ -1,0 +1,20 @@
+.carousel-item {
+    border: 6px solid transparent;
+}
+
+.col-sm{
+    border: 6px solid transparent;
+}
+
+.h5{
+    --font-one: 'Inconsolata', monospace;
+    font-size: 20px;
+    color: goldenrod;
+}
+
+.p{
+    --font-one: 'Inconsolata', monospace;
+    font-size: 20px;
+    color: goldenrod;
+}
+

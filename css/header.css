@@ -1,8 +1,76 @@
-.jumpbotron{
-    background: url('');
-    background-size: auto;
-    /*height:75vh; */
-    background-color: royalblue;
+.jumbotron{
+    --font-one: 'Inconsolata', monospace;
     font-family: 'Inconsolata', monospace;
-    font-size:20px;
+    font-weight: 800;
+    background-color: #0c6c85;
+    border: 50px solid transparent;
+    height: 200px;
+    width: 1350px;
+    z-index: -1;
 }
+
+/*.container{
+    border: 50px solid transparent;
+    padding: 200px;
+    margin: 25px 25px 0px 50px;
+}*/
+
+.display-4{
+    position: relative;
+    top: -150px;
+    --font-one: 'Inconsolata', monospace;
+    font-size: 40px;
+    font-weight: 400px;
+    text-align: top center;
+    letter-spacing: 10px;
+    z-index: 2;
+}
+
+.lead{
+    position: relative;
+    top: -125px;
+    --font-one: 'Inconsolata', monospace;
+    font-size: 30px;
+    text-align: top center;
+    letter-spacing: 10px;
+    z-index: 2;
+}
+/*Extra small devices (portrait phones, less than 576px)*/
+@media all and (max-width: 575.98px) { 
+    .jumbotron {
+        width: 15vw;
+        height: 150px;
+    }
+ }
+
+/*Small devices (landscape phones, 576px and up)*/
+@media screen and (min-width: 576px) and (max-width: 767.98px) { 
+    .jumbotron {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+ }
+
+/*Medium devices (tablets, 768px and up)*/
+@media screen and (min-width: 768px) and (max-width: 991.98px) { 
+    .jumbotron {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+ }
+
+/*Large devices (desktops, 992px and up)*/
+@media screen and (min-width: 992px) and (max-width: 1199.98px) { 
+    .jumbotron {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+ }
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media screen and (min-width: 1200px) { 
+    .jumbotron {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+ }

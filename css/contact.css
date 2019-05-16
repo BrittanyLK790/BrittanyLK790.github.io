@@ -1,3 +1,11 @@
-#contact{
-    background: ;
+.contanier{
+    --font-one: 'Inconsolata', monospace;
+}
+
+.row{
+    --font-one: 'Inconsolata', monospace;
+}
+
+.col-12{
+    --font-one: 'Inconsolata', monospace;
 }
